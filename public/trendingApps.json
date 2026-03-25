@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/tMckxhTJ/muhammad-afandi-2-Cx-Izq7-Y9-g-unsplash.jpg",
+    "title": "ChatMaster AI",
+    "companyName": "SmartTech Ltd",
+    "id": 1,
+    "description": "AI-powered chatbot for instant answers and productivity.",
+    "size": 45.2,
+    "reviews": "12K",
+    "ratingAvg": 4.5,
+    "downloads": "500K",
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 540 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5474 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bgxJQ97k/muhammad-afandi-y-Bb-Fvv-Dizhw-unsplash.jpg",
+    "title": "FitTrack Pro",
+    "companyName": "Healthify Inc",
+    "id": 2,
+    "description": "Track workouts, calories, and stay fit easily.",
+    "size": 60.8,
+    "reviews": "8.4K",
+    "ratingAvg": 4.3,
+    "downloads": "300K",
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 430 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 3581 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kp90yNVX/demo-app-1.webp",
+    "title": "Foodie Express",
+    "companyName": "QuickBite",
+    "id": 3,
+    "description": "Order food from your favorite restaurants instantly.",
+    "size": 75.5,
+    "reviews": "15.4K",
+    "ratingAvg": 4.6,
+    "downloads": "800K",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 7232 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JRKbp7M4/demo-app-2.webp",
+    "title": "EduLearn",
+    "companyName": "BrightFuture",
+    "id": 4,
+    "description": "Online courses and skill development platform.",
+    "size": 90.1,
+    "reviews": "9.6K",
+    "ratingAvg": 4.4,
+    "downloads": "450K",
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 3892 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxpz9pMp/demo-app-3.webp",
+    "title": "MusicWave",
+    "companyName": "SoundLab",
+    "id": 5,
+    "description": "Stream and download your favorite songs.",
+    "size": 55.7,
+    "reviews": "20.5K",
+    "ratingAvg": 4.7,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 10450 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YB3kBNyV/demo-app-4.webp",
+    "title": "TravelGo",
+    "companyName": "ExploreWorld",
+    "id": 6,
+    "description": "Plan trips, book hotels, and explore destinations.",
+    "size": 82.3,
+    "reviews": "6.8K",
+    "ratingAvg": 4.2,
+    "downloads": "250K",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2300 },
+      { "name": "5 star", "count": 2550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZpjsPtpD/demo-app-5.webp",
+    "title": "SecurePay",
+    "companyName": "FinTech Hub",
+    "id": 7,
+    "description": "Fast and secure mobile payment solution.",
+    "size": 40.9,
+    "reviews": "11.2K",
+    "ratingAvg": 4.5,
+    "downloads": "600K",
+    "ratings": [
+      { "name": "1 star", "count": 280 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8LJ7wmXw/demo-app-6.webp",
+    "title": "PhotoEdit Pro",
+    "companyName": "Pixel Studio",
+    "id": 8,
+    "description": "Advanced photo editing with filters and effects.",
+    "size": 68.4,
+    "reviews": "8.9K",
+    "ratingAvg": 4.3,
+    "downloads": "400K",
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 3850 }
+    ]
+  }
+]

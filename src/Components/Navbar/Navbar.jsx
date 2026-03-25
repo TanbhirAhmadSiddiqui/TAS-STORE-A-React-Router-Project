@@ -44,7 +44,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link to="/" className="text-2xl font-bold">
+        <Link to="/" className="text-2xl font-bold skeleton skeleton-text">
           TAS-STORE
         </Link>
       </div>
