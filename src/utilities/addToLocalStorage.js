@@ -29,4 +29,4 @@ const addToLocalStorage = (id) => {
   }
 };
 // export functions for access any components
-export { addToLocalStorage };
+export { addToLocalStorage, getStoredApps };
