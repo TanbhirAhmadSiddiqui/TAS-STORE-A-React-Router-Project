@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import { getStoredApps } from "../../utilities/addToLocalStorage";
 
-const InstalledAppsCard = ({ installApp }) => {
-  const { image, title, downloads, ratingAvg, size } = installApp;
+const InstalledAppsCard = ({ installApp, handleDelete }) => {
+  const { id, image, title, downloads, ratingAvg, size } = installApp;
   return (
     <div className="border my-3 flex justify-between items-center">
       <div className="flex gap-5 p-5 items-center">
@@ -18,7 +19,12 @@ const InstalledAppsCard = ({ installApp }) => {
         </div>
       </div>
       <div>
-        <button className="btn btn-primary me-5">Uninstall</button>
+        <button
+          onClick={() => handleDelete(id)}
+          className="btn btn-primary me-5"
+        >
+          Uninstall
+        </button>
       </div>
     </div>
   );

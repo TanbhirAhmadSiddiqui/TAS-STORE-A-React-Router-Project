@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
-import { addToLocalStorage } from "../../utilities/addToLocalStorage";
+import {
+  addToLocalStorage,
+  getStoredApps,
+} from "../../utilities/addToLocalStorage";
 import { Bar, BarChart, XAxis, YAxis } from "recharts";
 
 const CardDetails = () => {
+  const [disabled, setDisabled] = useState(false);
+  const [installed, setInstalled] = useState("Install Now");
   const { id } = useParams();
   const apps = useLoaderData();
   const cardDetails = apps.find((app) => app.id === parseInt(id));
+  useEffect(() => {
+    const getStoredAppsList = getStoredApps();
+    const convertStoredIdTOInt = getStoredAppsList.map((id) => parseInt(id));
+    if (convertStoredIdTOInt.includes(cardDetails.id)) {
+      setInstalled("installed");
+      setDisabled(true);
+    }
+  }, []);
   const {
     image,
     title,
@@ -28,6 +41,8 @@ const CardDetails = () => {
   const handleAddToLocalStorage = (id) => {
     // this function call from utilities
     addToLocalStorage(id);
+    setInstalled("installed");
+    setDisabled(true);
   };
   return (
     <div className="max-w-300 mx-auto py-10">
@@ -74,9 +89,10 @@ const CardDetails = () => {
           </div>
           <button
             onClick={() => handleAddToLocalStorage(id)}
+            disabled={disabled}
             className="btn btn-primary mt-6"
           >
-            Install Now ({size} MB)
+            {installed} ({size} MB)
           </button>
         </div>
       </div>

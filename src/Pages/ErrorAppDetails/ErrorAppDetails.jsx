@@ -9,9 +9,9 @@ const ErrorAppDetails = () => {
       <p>The page you are looking for is not available.</p>
       <Link
         className="w-37.5 h-12 bg-blue-900 rounded flex items-center justify-center"
-        to="/"
+        to="/apps"
       >
-        Go Back!
+        Go Back to Apps!
       </Link>
     </div>
   );
