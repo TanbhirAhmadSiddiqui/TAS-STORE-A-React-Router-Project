@@ -64,7 +64,7 @@ const Installation = () => {
       <div>
         {installedApps.map((installApp) => (
           <InstalledAppsCard
-            handleDelete={handleDelete}
+            // handleDelete={handleDelete}
             key={installApp.id}
             installApp={installApp}
           ></InstalledAppsCard>
